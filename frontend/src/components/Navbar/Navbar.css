@@ -1,0 +1,33 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: rgba(0, 0, 0, .2);  
+    /* border: 5px solid red; */
+}
+
+.divLogo{
+    display: flex;
+    justify-content: center;  
+
+}
+
+.divLinks li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;  
+    font-family: 'poppins' sans-serif;  
+    font-weight: bolder;
+    
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.divLinks a:hover{  
+    background-color: rgba(73, 191, 158, 0.822);  
+    color: #E74C3C;  
+    border-radius: 3px;
+}

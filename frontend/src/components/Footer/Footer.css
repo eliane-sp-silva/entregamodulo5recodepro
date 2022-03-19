@@ -1,0 +1,119 @@
+footer {
+    height: 60vh;
+	font-family:'Roboto', sans-serif;
+    color: #F24C27 ;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgb(72, 72, 80);  
+}
+ 
+
+.stretch {
+	align-items: stretch;
+}
+
+/* Flex Container */
+.container {
+	margin: 0 auto;
+	display: flex;
+} 
+ 
+.l-footer p {
+    text-align: justify;
+    padding-top: 20px;
+    color: #49BF9E ;
+    } 
+    
+.b-footer {
+    text-align: center;
+    color: #49BF9E ;
+    padding-top: 5rem;
+    background-color: rgb(72, 72, 80);  
+
+}
+.r-footer{
+    padding: auto;
+    border: none;
+}
+          
+.box a {
+    display: block;
+    color: #49BF9E ;
+    padding-block: 10px;
+}    
+.box p{
+    text-align: center;
+    color: #49BF9E ;
+    padding-top: 20px;
+}
+   
+.footer a {
+    text-decoration: none;
+    }
+  
+/* Flex Item */
+.item {
+	flex: 1;
+	margin: 10px;
+	padding: 0 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;	
+	text-align: center;
+	font-size: 15px;
+}
+
+div h2 {
+	text-align: center;
+	margin: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+	font-size: 16px;
+    text-transform: uppercase;
+	font-weight: bolder;
+    border: solid 2px;    
+}
+footer span{
+    justify-items: center;
+    display: block;
+    border: solid 2px;
+    padding: 5px;
+    position: relative;
+    
+
+}
+footer li{
+    text-decoration: none;
+    color: #49BF9E;
+    border: solid 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;    
+
+}
+.boxRedesSocias{
+    padding: 10px 30px;
+}
+.social-icon{
+font-size: 30px;
+color: #49BF9E;
+}
+.social-icon :hover{
+    color:#F24C27
+}
+.iconAdd{
+    font-size: 20px;
+    color: #49BF9E;
+}
+
+div .box p{
+    padding: 5px;
+    
+}
+.h-box :hover{
+    color:#F24C27
+
+}
+@media screen and (min-width: 600px) {
+footer > * {display: inline-block;
+}}

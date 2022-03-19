@@ -1,0 +1,110 @@
+
+.mainPromocao{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins",sans-serif;
+
+}
+.mainPromocao h1{
+    color: #F24C27;
+    background-color: rgba(73, 191, 158, 0.2);
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 5px;
+    box-shadow: 3px 0 10px 3px rgba(0, 0, 0, 0.459);
+    padding: 10px 10px;
+}
+
+#mainH1{
+       margin:10px;
+}
+
+
+#mainH1:hover{
+    color: #49BF9E;
+}
+
+.promocao-section{
+    height: 90vh;   
+    display: flex;
+    box-shadow: 4px 0 10px 3px rgba(0, 0, 0, 0.459);
+
+}
+
+.destino{
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    transition: .6s;
+}
+
+.destino:hover{
+    flex: 3;
+}
+
+.destino-pic{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    filter: grayscale(80%);
+    transition: .3s;
+}
+
+.destino:hover .destino-pic{
+    filter: grayscale(0);
+    
+}
+
+.destino-info{
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    transition: .2s;
+    background-color: rgba(0, 0, 0, .3); 
+}
+.destino-info h2{
+    background-color: rgba(242, 76, 39, 0.795);
+    border-radius: 10px;
+}
+
+.destino:hover .destino-info{
+    opacity: 1;
+    bottom: 60px;
+    transition-delay: .6s;
+}
+
+.destino-info h2{
+    font-size: 20px;
+    color: #49BF9E  ;
+    font-weight: bolder;
+}
+
+.destino-info p{
+    color: #F24C27;
+    font-style: italic;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.btncompra a{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    color: #464D43  ;
+    background-color: #49BF9E;
+    line-height: 30px;
+    border-radius: 10px;
+    margin: 0 6px;
+    font-size: 16px;
+    transition: .3s linear;
+}
+
+.btncompra a:hover{
+    color: #F24141  ;
+    background-color: transparent;
+    transform: scale(1.5);
+}

@@ -1,0 +1,31 @@
+.chamadaHome{
+    display: flex;
+    justify-items: center;
+    font-family: "poppins", sans-serif;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgba(251, 208, 208, .2);
+    
+
+}
+.chamadaHomeCard{
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px rgba(242, 76, 39, 0.795);
+    width: 80%;    
+    margin-left: 10rem;
+}
+.chamadaHome img{
+    display: block;
+    border-radius: 10px;
+    height: 45vh;
+    width: 100%;    
+}
+
+.chamadaHometxt{
+    text-align: center;
+    margin-top:  10px;
+    margin-left: 7rem;
+    padding-top: 1.5rem;
+}
+

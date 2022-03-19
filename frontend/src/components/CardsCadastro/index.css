@@ -1,0 +1,23 @@
+.card {
+    
+    width: 300px;
+    margin: 1rem;
+}
+    
+
+.divCard {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card-form{
+    width: 500px;
+    margin: 1rem;
+}
+.card-form h1{
+    font-size: 20px;
+}
+
+
+
